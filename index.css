@@ -1,0 +1,21 @@
+:root{
+    /* brand */
+    --purple-base: #892ccd;
+    --purple-light: #a85fdd;
+
+
+    /* grayscale */
+    --gray-100: #0f0f1a;
+    --gray-200: #131320;
+    --gray-300: #1a1b2d;
+    --gray-400: #45455f;
+    --gray-500: #7a7b9f;
+    --gray-600: #b5b6c9;
+    --gray-700: #e4e5ec;
+    --white: #FFFFFF;
+
+    /* feedback */
+    --error-base: #d04048;
+    --error-light: #f77980;
+
+}
