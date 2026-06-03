@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Gerenciador de Filmes</title>
+</head>
+<body class="bg-[var(--gray-100)]">
+    <main class="w-full h-screen border-2 flex">
+        
+        <div class="w-1/2 h-screen flex items-center justify-center">
+            <div class="bg-[url(./img/Image.png)] w-6/7 h-7/8 bg-cover rounded-xl flex ml-24">
+
+                <div class="bg-[url(./img/Shadow.png)] bg-cover w-full h-full rounded-xl flex flex-col items-left ">
+                    <img src="./icone/Logo.svg" alt="icone" class="w-14 h-14 ml-6 mt-14">
+                    <h3 class="text-3xl mt-124 ml-6 font-bold text-[var(--gray-600)]">ab filmes</h3>
+                    <h1 class="text-4xl font-bold ml-6 text-[var(--gray-700)]">
+                        O guia definitivo para <br> os amantes do cinema
+                    </h1>
+                </div>
+                
+            </div>   
+        </div>
+
+        <div class="w-1/2 h-screen flex flex-col items-center justify-center ">
+            <div class="w-1/2 h-24 bg-[var(--gray-200)] rounded-lg flex items-center justify-around mb-16">
+                <button class="bg-[var(--gray-300)] text-[var(--purple-light)] font-semibold text-xl rounded-lg w-56 h-18 cursor-pointer">Login</button>
+                <button class="bg-[var(--gray-300)] text-[var(--purple-light)] font-semibold text-xl rounded-lg w-56 h-18 cursor-pointer">Cadastro</button>
+            </div>
+
+            <div class="w-1/2">
+                <h1 class="text-5xl font-bold text-[var(--gray-700)]">Acesse sua conta</h1>
+                <div class="grid gap-4 mt-12">
+                    <input type="text" 
+                    placeholder="E-mail"
+                    class="w-full py-4 px-2 border-2 border-[var(--purple-light)] text-[var(--purple-light)] text-xl rounded-lg"
+                    >
+                    <input type="password" 
+                    placeholder="Senha"
+                    class="w-full py-4 px-2 border-2 border-[var(--purple-light)] text-[var(--purple-light)] text-xl rounded-lg"
+                    >
+                    <butto class="cursor-pointer w-full h-16 bg-[var(--purple-base)] flex items-center justify-center text-[var(--white)] text-2xl rounded-lg">
+                        Entrar
+                    </butto>
+                </div>
+
+                <h1 class="text-5xl font-bold text-[var(--gray-700)]">Crie sua conta</h1>
+                <div class="grid gap-4 mt-12">
+                    <input type="text" 
+                    placeholder="Nome"
+                    class="w-full py-4 px-2 border-2 border-[var(--purple-light)] text-[var(--purple-light)] text-xl rounded-lg"
+                    >
+                    <input type="text" 
+                    placeholder="E-mail"
+                    class="w-full py-4 px-2 border-2 border-[var(--purple-light)] text-[var(--purple-light)] text-xl rounded-lg"
+                    >
+                    <input type="password" 
+                    placeholder="Senha"
+                    class="w-full py-4 px-2 border-2 border-[var(--purple-light)] text-[var(--purple-light)] text-xl rounded-lg"
+                    >
+                    <butto class="cursor-pointer w-full h-16 bg-[var(--purple-base)] flex items-center justify-center text-[var(--white)] text-2xl rounded-lg">
+                        Cadastro
+                    </butto>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
